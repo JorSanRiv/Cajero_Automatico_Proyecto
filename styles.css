@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(atm-machine-isolated-on-white-background-free-vector.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    
+    
+
+}
+
+#atm-container {
+    background-color: #2e5fd1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1900ff; /* change background color on hover */
+    color: #333; /* change text color on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow on hover */
+}
+.user {
+    font-size: 20px;
+}
+
+.box {
+    width: auto;
+    height: 30px;
+}
